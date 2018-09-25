@@ -40,8 +40,7 @@ class GridView extends Component {
         return(
             <View>
                 <View style={styles.viewPrincipal}>
-                    <View style={[
-                            this.props.check && this.props.answer ? styles.gridViewRight : styles.gridView]}>
+                    <View style={[this.props.check && this.props.answer ? styles.gridViewRight : styles.gridView]}>
                         <TouchableOpacity>
                             <Image 
                                 source={this.props.image}
